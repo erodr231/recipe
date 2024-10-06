@@ -54,10 +54,13 @@ table {
     --black: #0D0D0D;
     --white: #F2F2F2;
     --teal:#7ABFBF;
-    --lightteal: rgba(122, 191, 191, .5);
+    --lteal: rgba(122, 191, 191, .5);
     --orange: #EB5428;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+html{
+    background-color: var(--lteal);
+}
 h1{
     font-family: 'Bebas Neue', 'Arial';
     font-size: 40px;
