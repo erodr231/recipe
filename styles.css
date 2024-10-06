@@ -58,75 +58,89 @@ table {
     --orange: #EB5428;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-html{
-    background-color: var(--lteal);
-}
-h1{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 40px;
-}
+@media screen and (min-width:414px) {
+    html{
+        background-color: var(--lteal);
+    }
+    
+    #nav-menu{
+        display: none;
+    }
 
-h2{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 30px;
-}
+    h1{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 40px;
+    }
 
-h3{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 25px;
-}
+    h2{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 30px;
+    }
 
-p{
-    font-family: 'Montserrat', Arial;
-    font-size: 16px;
-}
+    h3{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 25px;
+    }
 
-nav a{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 20px;
-}
+    p{
+        font-family: 'Montserrat', Arial;
+        font-size: 16px;
+    }
+
+    nav a{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 20px;
+    }
 
 
-nav span{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 20px;
-}
+    nav span{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 20px;
+    }
 
-menu li{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 20px;
-}
+    menu li{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 20px;
+    }
 
-#social li{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 20px;
-}
+    #social li{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 20px;
+    }
 
-li{
-    font-family: 'Montserrat', 'Arial';
-    font-size: 16px;
-}
+    li{
+        font-family: 'Montserrat', 'Arial';
+        font-size: 16px;
+    }
 
-nav{
-    font-family: 'Montserrat', 'Arial';
-    font-size: 16px;
-}
+    nav{
+        font-family: 'Montserrat', 'Arial';
+        font-size: 16px;
+    }
 
-input{
-    font-family: 'Montserrat', 'Arial';
-    font-size: 16px;
-}
+    input{
+        font-family: 'Montserrat', 'Arial';
+        font-size: 16px;
+    }
 
-dt{
-    font-family: 'Montserrat', 'Arial';
-    font-size: 16px;
-    font-weight: 700;
-}
+    dt{
+        font-family: 'Montserrat', 'Arial';
+        font-size: 16px;
+        font-weight: 700;
+    }
 
-footer{
-    font-family: 'Bebas Neue', 'Arial';
-    font-size: 20px;
+    footer{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 20px;
+    }
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media screen and (min-width:768px){
+    #nav-menu{
+        display: flexbox;
+    }
+}
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+@media screen and (min-width:1280px){
+
+}
