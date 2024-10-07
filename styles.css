@@ -110,12 +110,14 @@ table {
         font-family: 'Bebas Neue', 'Arial';
         font-size: 40px;
         text-align: center;
-        margin: 1rem;
+        margin: 0 1rem;
     }
 
     h2{
         font-family: 'Bebas Neue', 'Arial';
         font-size: 30px;
+        padding: 0 .5rem .5rem;
+        text-align: center;
     }
 
     h3{
@@ -133,19 +135,28 @@ table {
         font-size: 20px;
     }
 
-    nav span{
-        font-family: 'Bebas Neue', 'Arial';
-        font-size: 20px;
+    menu{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 1.5rem .5rem 1.5rem;
     }
 
     menu li{
         font-family: 'Bebas Neue', 'Arial';
         font-size: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    menu a{
+        color: var(--orange);
     }
 
-    #social li{
-        font-family: 'Bebas Neue', 'Arial';
-        font-size: 20px;
+    .tacos img{
+        width: 100%;
     }
 
     li{
@@ -169,13 +180,10 @@ table {
         font-weight: 700;
     }
 
-    section.intro{
-        padding: 1.5rem;
-    }
-
     #search{
         display: flex;
         justify-content: center;
+        padding: 1.5rem;
     }
 
     #search input{
@@ -188,6 +196,34 @@ table {
         max-width: 100px;
     }
 
+    .tacos p{
+        padding: .5rem;
+        line-height: 1.5rem;
+    }
+
+    .details{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .details p{
+      text-align: left;  
+      line-height: 1.5rem;
+    }
+
+    strong{
+        font-weight: bold;
+    }
+
+    .ingredients ul{
+        list-style-type: square;
+    }
+
+    #social li{
+        font-family: 'Bebas Neue', 'Arial';
+        font-size: 20px;
+    }
+
     footer{
         font-family: 'Bebas Neue', 'Arial';
         font-size: 20px;
@@ -196,7 +232,7 @@ table {
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width:768px){
     #nav-menu{
-        display: flexbox;
+        display: flex;
     }
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
