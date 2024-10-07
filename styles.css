@@ -63,6 +63,38 @@ table {
         background-color: var(--lteal);
     }
     
+    .navbar{
+        background-color: var(--white);
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar li{
+        padding: .5rem;
+    }
+
+    .navbar li:nth-child(odd){
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    #orange-logo{
+        background-color: var(--orange);
+        width: 50%;
+    }
+
+    #orange-logo svg{
+        width: 100%;
+    }
+
     #nav-menu{
         display: none;
     }
