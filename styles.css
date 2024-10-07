@@ -65,6 +65,7 @@ table {
     
     .navbar{
         background-color: var(--white);
+        box-shadow: 2px 2px 5px;
     }
 
     .navbar ul{
