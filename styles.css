@@ -560,6 +560,30 @@ table {
     }
 
     .side-dish{
-        
+
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    footer p{
+        text-align: left;
+    }
+
+    footer p:last-child{
+        position:relative;
+        top: 2px;
+
+    }
+
+    #copyright-p{
+        position: relative;
+        left: -90px;
+    }
+    footer #social-media{
+        grid-column: 3/4;
     }
 }
