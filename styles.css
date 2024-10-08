@@ -70,6 +70,10 @@ table {
         z-index: 1;
     }
 
+    #nav-menu-header{
+        display: none;
+    }
+
     #search-header{
         display: none;
     }
@@ -342,6 +346,9 @@ table {
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width:768px){
+    #nav-menu-header{
+        display: flex;
+    }
     .navbar li:nth-child(3){
         display: flex;
         flex: 4;
@@ -458,5 +465,28 @@ table {
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width:1280px){
+
+    .navbar li:nth-child(3){
+        display: none;
+    }
+
+    #nav-menu{
+        display: none;
+    }
+
+    #nav-menu-header img{
+        height: 100px;
+    }
+
+    #orange-logo{
+        height: 150px;
+    }
+    #orange-logo a{
+        height: 100px;
+    }
+
+    #orange-logo svg{
+        width: 100%;
+    }
 
 }
