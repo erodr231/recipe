@@ -465,7 +465,24 @@ table {
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width:1280px){
+    h1{
+        display: block;
+        text-align: center;
+        position: relative;
+        top: -18px;
+    }
 
+    #lunch{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #menu-button{
+        display: none;
+    }
+    .navbar li:first-of-type{
+        display: flex;
+    }
     .navbar li:nth-child(3){
         display: none;
     }
@@ -489,4 +506,60 @@ table {
         width: 100%;
     }
 
+    #search{
+        display: flex;
+    }
+
+    menu{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #large-menu{
+        display: flex;
+    }
+
+    #large-menu nav{
+        background-color: rgba(234, 234, 234, 0.7);
+        border: 2px solid var(--orange);
+    }
+
+    .tacos img{
+        width: 50%;
+    }
+
+    .tacos {
+        display: flex;
+    }
+    #taco-p p{
+        line-height: 2.5rem;
+    }
+
+    #to-recipe{
+        display: none;
+    }
+
+    .details{
+        background-color: var(--black);
+        color: var(--teal)
+
+    }
+
+    #details-div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #details-div p{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ingredients h2{
+        text-align: left;
+    }
+
+    .side-dish{
+        
+    }
 }
